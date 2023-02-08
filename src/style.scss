@@ -96,12 +96,15 @@
         border-radius: 20px;
         
         ul{
+            
+            padding:0;
             display:flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
         }
         ul li{
             display:block;
             cursor:pointer;
+            
         }
 
         a{
@@ -251,6 +254,39 @@
         }
     }
 
+    .calculator-2{
+        width:420px !important;
+        height:330px !important;
+    }
+
+    .mass{
+        width:420px !important;
+        height:330px !important;
+    }
+
+    .temp{
+        width:420px !important;
+        height:330px !important;
+    }
+
+    .byte{
+        width:420px !important;
+        height:330px !important;
+    }
+
+    .time {
+        width:420px !important;
+        height:330px !important;
+    }
+
+    .container-2 button{
+            
+        width:50px !important;
+        height:40px !important;
+    }
+
+  
+
 }
 
 @media screen and (max-width: 500px) {
@@ -263,7 +299,62 @@
         }
     }
 
+    
+
+    
+       
+    
 }
+
+
+@media screen and (max-width: 400px) {
+    .navbar{
+        width:300px !important;
+        ul li{
+            display:block;
+            cursor:pointer;
+            font-size: 10px;
+        }
+    }
+
+    .calculator-2{
+        width:300px !important;
+        height:300px !important;
+    }
+
+    .mass{
+        width:300px !important;
+        height:300px !important;
+    }
+
+    .temp{
+        width:300px !important;
+        height:300px !important;
+    }
+
+    .byte{
+        width:300px !important;
+        height:300px !important;
+    }
+
+    .time {
+        width:300px !important;
+        height:300px !important;
+    }
+
+
+    
+    .container-2 input{
+ 
+        
+        font-size: 10px !important;
+        height:20px !important;
+       
+    }
+
+    
+}
+
 
 
 
